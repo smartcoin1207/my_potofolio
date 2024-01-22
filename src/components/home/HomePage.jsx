@@ -98,7 +98,7 @@ const HomePage = () => {
                   textDecoration: "",
                 }}
               >
-                DEVESH MEHRA
+                Potter Amos
               </span>
             </h1>
           </div>

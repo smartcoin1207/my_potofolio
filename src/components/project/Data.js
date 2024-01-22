@@ -215,7 +215,7 @@ export const projectsData = [
     id: 18,
     projectName: "My Portfolio",
     projectDesc:
-      "My Portfolio is a simple portfolio website built using React, Material UI, and CSS. ",
+      "My Portfolio is a simple portfolio website built using React, Material UI, and CSS.  ",
     tags: ["React", "material ui", "css", "vite"],
     code: "https://github.com/MehraDevesh2022/portFolio",
     demo: "https://iam-devesh.tech/",

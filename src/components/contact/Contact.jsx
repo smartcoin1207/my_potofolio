@@ -163,7 +163,7 @@ const Contact = () => {
          from_name: name,
          from_email: email,
          message: message,
-         to_email: "mehra.devesh2022@gmail.com",
+         to_email: "jackle.some99@gmail.com",
        };
 
        emailjs

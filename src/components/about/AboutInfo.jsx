@@ -52,7 +52,7 @@ const AboutInfo = () => {
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
               Devesh Mehra
             </span>{" "}
-            from Uttarakhand,India. I did my B.Tech in Computer Science and
+            from Japan. I did my B.Tech in Computer Science and
             Engineering from{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>NPSEI</span>{" "}
             and currently I'm looking for opnings for{" "}

@@ -109,7 +109,7 @@ const Footer = () => {
       <div
         className={`${classes.footerText} text-sm text-gray-500 sm:text-center dark:text-gray-400 footer-left-text`}
       >
-        Developed by Devesh Mehra
+        Developed by Potter Amos
       </div>
     </footer>
   );
