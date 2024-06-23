@@ -7,6 +7,7 @@ import HomeBottomPage from "./HomeBottomPage";
 import developer from "../../assets/developer.svg";
 import resumePdf from "../../assets/Resume_Devesh.pdf";
 import { Button, makeStyles } from "@material-ui/core";
+import Config from "../../config";
 
  const useStyles = makeStyles((t) => ({
    resumeContainer: {
@@ -98,7 +99,7 @@ const HomePage = () => {
                   textDecoration: "",
                 }}
               >
-                Potter Amos
+                {Config.name}
               </span>
             </h1>
           </div>

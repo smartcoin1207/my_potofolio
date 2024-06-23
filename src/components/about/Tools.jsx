@@ -10,6 +10,9 @@ import {
   SiFigma,
   SiCanva,
   SiFirebase,
+  SiGithub,
+  SiRemix,
+  SiChainlink,
 } from "react-icons/si";
 
 // import { VscTerminalCmd } from "react-icons/vsc";
@@ -148,6 +151,42 @@ const Tools = () => {
           >
             <SiVercel
               style={{ width: "60%", height: "auto", color: "#000000 " }}
+            />
+          </Card>
+          <Card
+            raised
+            className="item"
+            style={{
+              backgroundColor: "#10265ddc",
+              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <SiGithub
+              style={{ width: "60%", height: "5rem", color: "#336791" }}
+            />
+          </Card>
+          <Card
+            raised
+            className="item"
+            style={{
+              backgroundColor: "#10265ddc",
+              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <SiRemix
+              style={{ width: "60%", height: "5rem", color: "#336791" }}
+            />
+          </Card>
+          <Card
+            raised
+            className="item"
+            style={{
+              backgroundColor: "#10265ddc",
+              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <SiChainlink
+              style={{ width: "60%", height: "5rem", color: "#336791" }}
             />
           </Card>
         </Card.Group>

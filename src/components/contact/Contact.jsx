@@ -21,11 +21,9 @@ import { FiPhone, FiAtSign } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import contactsGreen from "../../assets/contactsGreen.svg";
 
- 
-import { socialsData } from "./SocialData";
-import { contactsData } from "./ContactData";
 import "./Contacts.css";
 import emailjs from "emailjs-com";
+import Config from "../../config";
 // import { PUBLIC_KEY, TEMPLATE_ID, SERVICE_ID } from "../../../../SECURE.JS";
 
   const useStyles = makeStyles((t) => ({
@@ -234,7 +232,7 @@ const Contact = () => {
               fontWeight: "bold",
             }}
           >
-            <span style={{ color: "#32CD30" }}>Hire</span> Me!
+            <span style={{ color: "#32CD30" }}>Contact</span> Me!
           </h1>
           <div className="contacts-body">
             <div className="contacts-form">
@@ -344,42 +342,42 @@ const Contact = () => {
 
             <div className="contacts-details">
               <a
-                href={`mailto:${contactsData.email}`}
+                href={`mailto:${Config.email}`}
                 className="personal-details"
               >
                 <div className={classes.detailsIcon}>
                   <FiAtSign />
                 </div>
                 <p style={{ color: "white" }} className="email">
-                  {contactsData.email}
+                  {Config.email}
                 </p>
               </a>
               <a
-                href={`tel:${contactsData.phone}`}
+                href={`tel:${Config.phone}`}
                 className="personal-details"
               >
                 <div className={classes.detailsIcon}>
                   <FiPhone />
                 </div>
-                <p style={{ color: "white" }}>{contactsData.phone}</p>
+                <p style={{ color: "white" }}>{Config.phone}</p>
               </a>
 
               <a
                 className="personal-details"
-                href="https://goo.gl/maps/qAiPwH8RWxdhqUFU8"
+                href={Config.address.googlemap}
                 target="_blank" // Opens link in a new tab/window
                 rel="noopener noreferrer" // Recommended for security reasons when using target="_blank"
               >
                 <div className={classes.detailsIcon}>
                   <HiOutlineLocationMarker />
                 </div>
-                <p style={{ color: "white" }}>{contactsData.address}</p>
+                <p style={{ color: "white" }}>{Config.address.country}</p>
               </a>
 
               <div className="socialmedia-icons">
-                {socialsData.whatsapp && (
+                {Config.whatsapp && (
                   <a
-                    href={socialsData.whatsapp}
+                    href={Config.whatsapp}
                     target="_blank"
                     rel="noreferrer"
                     className={classes.socialIcon}
@@ -390,9 +388,9 @@ const Contact = () => {
                     />
                   </a>
                 )}
-                {socialsData.twitter && (
+                {Config.twitter && (
                   <a
-                    href={socialsData.twitter}
+                    href={Config.twitter}
                     target="_blank"
                     rel="noreferrer"
                     className={classes.socialIcon}
@@ -403,9 +401,9 @@ const Contact = () => {
                     />
                   </a>
                 )}
-                {socialsData.github && (
+                {Config.github && (
                   <a
-                    href={socialsData.github}
+                    href={Config.github}
                     target="_blank"
                     rel="noreferrer"
                     className={`${classes.socialIcon} socialIcon`}
@@ -417,9 +415,9 @@ const Contact = () => {
                     />
                   </a>
                 )}
-                {socialsData.linkedIn && (
+                {Config.linkedIn && (
                   <a
-                    href={socialsData.linkedIn}
+                    href={Config.linkedIn}
                     target="_blank"
                     rel="noreferrer"
                     className={classes.socialIcon}
@@ -430,9 +428,9 @@ const Contact = () => {
                     />
                   </a>
                 )}
-                {socialsData.instagram && (
+                {Config.instagram && (
                   <a
-                    href={socialsData.instagram}
+                    href={Config.instagram}
                     target="_blank"
                     rel="noreferrer"
                     className={classes.socialIcon}
@@ -443,9 +441,9 @@ const Contact = () => {
                     />
                   </a>
                 )}
-                {socialsData.hashnode && (
+                {Config.hashnode && (
                   <a
-                    href={socialsData.hashnode}
+                    href={Config.hashnode}
                     target="_blank"
                     rel="noreferrer"
                     className={classes.socialIcon}
@@ -456,9 +454,9 @@ const Contact = () => {
                     />
                   </a>
                 )}
-                {socialsData.leetcode && (
+                {Config.leetcode && (
                   <a
-                    href={socialsData.leetcode}
+                    href={Config.leetcode}
                     target="_blank"
                     rel="noreferrer"
                     className={classes.socialIcon}
@@ -469,9 +467,9 @@ const Contact = () => {
                     />
                   </a>
                 )}
-                {socialsData.freecodecamp && (
+                {Config.freecodecamp && (
                   <a
-                    href={socialsData.freecodecamp}
+                    href={Config.freecodecamp}
                     target="_blank"
                     rel="noreferrer"
                     className={`${classes.socialIcon} socialIcon`}
@@ -484,9 +482,9 @@ const Contact = () => {
                   </a>
                 )}
 
-                {socialsData.hackerrank && (
+                {Config.hackerrank && (
                   <a
-                    href={socialsData.hackerrank}
+                    href={Config.hackerrank}
                     target="_blank"
                     rel="noreferrer"
                     className={classes.socialIcon}

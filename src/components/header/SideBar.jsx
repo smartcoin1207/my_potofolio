@@ -211,7 +211,7 @@ const Sidebar = ({ isOpen, onClose }) => {
               </NavLink>
             </Fade>
 
-            <Fade left>
+            {/* <Fade left>
               <NavLink
                 to="https://iam-dev.hashnode.dev/"
                 smooth={true}
@@ -223,7 +223,7 @@ const Sidebar = ({ isOpen, onClose }) => {
                   <span className={classes.drawerLinks}>Blogs</span>
                 </div>
               </NavLink>
-            </Fade>
+            </Fade> */}
           </div>
         </div>
       </Drawer>

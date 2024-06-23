@@ -5,6 +5,8 @@ import codeImage from "../../assets/coder.svg";
 import GitHubCalendar from "react-github-calendar";
 import Experience from "./Experince";
 import Tools from "./Tools";
+import Config from "../../config";
+
 const AboutInfo = () => {
   
    const [width, setWidth] = useState(window.innerWidth);
@@ -50,9 +52,9 @@ const AboutInfo = () => {
           <p style={{ textAlign: "justify" }}>
             Hi people, I am{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
-              Devesh Mehra
+              {Config.name}
             </span>{" "}
-            from Japan. I did my B.Tech in Computer Science and
+            from {Config.address.country}. I did my B.Tech in Computer Science and
             Engineering from{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>NPSEI</span>{" "}
             and currently I'm looking for opnings for{" "}
@@ -118,7 +120,7 @@ const AboutInfo = () => {
       <div className="github-graph">
         <GitHubCalendar
           style={{ marginBottom: "50px" }}
-          username="MehraDevesh2022"
+          username="smartcoin1207"
           blockMargin={4}
           blockSize={getRowLength()}
           fontSize={getFontLength()}

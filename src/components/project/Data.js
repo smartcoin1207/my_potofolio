@@ -1,21 +1,22 @@
 import one from "../../assets/Data01/01.jpg";
 import two from "../../assets/Data01/02.png";
 import three from "../../assets/Data01/03.jpg";
-import four from "../../assets/Data01/04.png";
-import five from "../../assets/Data01/05.png";
 import six from "../../assets/Data01/06.png";
-import seven from "../../assets/Data01/07.png";
 import eight from "../../assets/Data01/seven.svg";
 import nine from "../../assets/Data01/15.jpg";
 import Ten from "../../assets/Data01/six.svg";
 import Eleven from "../../assets/Data01/08.png";
 import Twelve from "../../assets/Data01/09.jpg";
-import Thirteen from "../../assets/Data01/10.jpg";
-import Fourteen from "../../assets/Data01/11.png";
 import Fifteen from "../../assets/Data01/12.png";
 import SixTeen from "../../assets/Data01/13.png";
 import Seventeen from "../../assets/Data01/14.jpg";
-import Eightteen from "../../assets/Data01/18.png";
+import bithuImg from "../../assets/Data01/bithu.png";
+import trading_platform from "../../assets/Data01/trading_platform.png";
+import nft_marketplace from "../../assets/Data01/nft_marketplace.jpg";
+import pet_website from "../../assets/Data01/pet_website1.png";
+import clock_shopify_website from "../../assets/Data01/clock_shopify_website.png";
+import fork_gmx_protocol_evn_chain from "../../assets/Data01/fork_gmx_protocol_evn_chain.png";
+import metabank_swap from "../../assets/Data01/metabank_swap.png";
 
 export const projectsData = [
   {
@@ -71,26 +72,7 @@ export const projectsData = [
     demo: "https://movieverse-bice.vercel.app/",
     image: three,
   },
-  {
-    id: 4,
-    projectName: "TaskPro",
-    projectDesc:
-      "TaskPro is a full-stack to-do app. It allows users to create, update, and delete tasks.",
-    tags: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "MongoDB"],
-    code: "https://github.com/MehraDevesh2022/TaskPro",
-    demo: "https://busy-teal-lion-robe.cyclic.cloud/",
-    image: four,
-  },
-  {
-    id: 5,
-    projectName: "Markdown Writer",
-    projectDesc:
-      "Markdown Writer is a React app that allows you to create, edit, and manage your Markdown notes in a user-friendly interface.",
-    tags: ["React", "CSS3", "React-MDE"],
-    code: "https://github.com/MehraDevesh2022/markdown-creater",
-    demo: "https://markdown-creater.onrender.com/",
-    image: five,
-  },
+
   {
     id: 6,
     projectName: "Expense-Tracker",
@@ -101,16 +83,7 @@ export const projectsData = [
     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
     image: six,
   },
-  {
-    id: 7,
-    projectName: "Website Scraper",
-    projectDesc:
-      "The cricketbuzz Website Scraper is a Node.js application designed to fetch cricket player data for IPL teams from the cricketbuzz website.",
-    tags: ["Cheerio", "JavaScript", "Nodejs"],
-    code: "https://github.com/MehraDevesh2022/Espin-Scrapper",
-    demo: "https://github.com/MehraDevesh2022/Espin-Scrapper",
-    image: seven,
-  },
+ 
   {
     id: 8,
     projectName: "File System Organizer",
@@ -161,26 +134,7 @@ export const projectsData = [
     demo: "https://tubular-peony-e3bb76.netlify.app/",
     image: Twelve,
   },
-  {
-    id: 13,
-    projectName: "MovieBuzz",
-    projectDesc:
-      "CMovieBuzz is a simple IMDb-like app This app is built using React class components.,",
-    tags: ["React", "Bootstrap"],
-    code: "https://github.com/MehraDevesh2022/MovieBuzz",
-    demo: "https://github.com/MehraDevesh2022/MovieBuzz",
-    image: Thirteen,
-  },
-  {
-    id: 14,
-    projectName: "WordTracker",
-    projectDesc:
-      "CMovieBuzz is a simple IMDb-like app This app is built using React class components.,",
-    tags: ["React", "css"],
-    code: "https://github.com/MehraDevesh2022/MovieBuzz",
-    demo: "https://wordstrackr.netlify.app/",
-    image: Fourteen,
-  },
+
   {
     id: 15,
     projectName: "Tenzies Game",
@@ -213,27 +167,72 @@ export const projectsData = [
   },
   {
     id: 18,
-    projectName: "My Portfolio",
+    projectName: "Bithu-Theme",
     projectDesc:
-      "My Portfolio is a simple portfolio website built using React, Material UI, and CSS.  ",
-    tags: ["React", "material ui", "css", "vite"],
-    code: "https://github.com/MehraDevesh2022/portFolio",
-    demo: "https://iam-devesh.tech/",
-    image: Eightteen,
+      "Bithu is fully complete template for NFT Mint Landing page.Bithu Template has modern design and beautiful color Palates. It meets all the need for making NFT portfolio.",
+    tags: ["Wordpress", "Web3js", "NFT"],
+    code: "",
+    demo: "https://themeforest.net/item/bithu-nft-mintingcollection-landing-page-figma-template/37017496",
+    image: bithuImg,
   },
+  {
+    id: 19,
+    projectName: "Trading Platform, Orderbook",
+    projectDesc:
+      "The Trading Platform, Orderbook project aims to create a robust and scalable electronic system designed for facilitating the trading of financial instruments such as stocks, bonds, cryptocurrencies, and derivatives. ",
+    tags: ["Solidity", "Web3js", "NFT"],
+    code: "",
+    demo: "",
+    image: trading_platform,
+  },
+  {
+    id: 20,
+    projectName: "NFT marketplace",
+    projectDesc:
+      "Nft marketplace landing page and Tregending. ",
+    tags: ["Solidity", "Web3js", "NFT"],
+    code: "",
+    demo: "",
+    image: nft_marketplace,
+  },
+  {
+    id: 21,
+    projectName: "Shopify Pet Website",
+    projectDesc:
+      "This is Shopify Pet Website. this site was developed by shopify and liquid custom.",
+    tags: ["Shopify", "Websocket", "Aws S3", "Firebase"],
+    code: "",
+    demo: "",
+    image: pet_website,
+  },
+  {
+    id: 22,
+    projectName: "Shopify Clock Website",
+    projectDesc:
+      "This is Shopify Clock Website. Clock site was developed by shopify and liquid custom.",
+    tags: ["Shopify"],
+    code: "",
+    demo: "",
+    image: clock_shopify_website,
+  },
+  {
+    id: 23,
+    projectName: "Fork Gmx Prtocol Evn Chain",
+    projectDesc:
+      "I will fork defi like gmx, camelot dex, aerodrome on evm chain.",
+    tags: ["NFT", "Solidity", "Smart Contract"],
+    code: "",
+    demo: "",
+    image: fork_gmx_protocol_evn_chain,
+  },
+  {
+    id: 24,
+    projectName: "Metabank Swap: Decentralized Exchange Platform",
+    projectDesc:
+      "Metabank Swap is a cutting-edge decentralized exchange (DEX) platform designed to facilitate seamless, secure, and efficient cryptocurrency trading.",
+    tags: ["NFT", "Solidity", "Smart Contract"],
+    code: "",
+    demo: "",
+    image: metabank_swap,
+  }
 ];
-
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/

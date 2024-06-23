@@ -5,10 +5,8 @@
     align-items: flex-start;
     justify-content: flex-start;
     position: relative;
-    margin-top: 3rem;
- 
+    margin-top: 3rem; 
 }
-
 
 .contacts--img {
     position: absolute;

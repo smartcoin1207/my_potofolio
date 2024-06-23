@@ -1,5 +1,4 @@
 import React from "react";
-import { socialsData } from "../contact/SocialData";
 import { makeStyles } from "@material-ui/core/styles";
 import {
   FaTwitter,
@@ -9,6 +8,8 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import {SiHashnode} from "react-icons/si"
+import Config from "../../config";
+
 const useStyles = makeStyles((theme) => ({
   footer: {
 
@@ -45,9 +46,9 @@ const Footer = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.socialmedia}>
-        {socialsData.whatsapp && (
+        {Config.whatsapp && (
           <a
-            href={socialsData.whatsapp}
+            href={Config.whatsapp}
             target="_blank"
             rel="noreferrer"
             className={classes.socialIcon}
@@ -55,9 +56,9 @@ const Footer = () => {
             <FaWhatsapp aria-label="WhatsApp" style={{ color: "#25D366" }} />
           </a>
         )}
-        {socialsData.twitter && (
+        {Config.twitter && (
           <a
-            href={socialsData.twitter}
+            href={Config.twitter}
             target="_blank"
             rel="noreferrer"
             className={classes.socialIcon}
@@ -65,9 +66,9 @@ const Footer = () => {
             <FaTwitter aria-label="Twitter" style={{ color: "#00acee " }} />
           </a>
         )}
-        {socialsData.github && (
+        {Config.github && (
           <a
-            href={socialsData.github}
+            href={Config.github}
             target="_blank"
             rel="noreferrer"
             className={classes.socialIcon}
@@ -75,9 +76,9 @@ const Footer = () => {
             <FaGithub aria-label="GitHub" style={{ color: "##1d1a1a" }} />
           </a>
         )}
-        {socialsData.linkedIn && (
+        {Config.linkedIn && (
           <a
-            href={socialsData.linkedIn}
+            href={Config.linkedIn}
             target="_blank"
             rel="noreferrer"
             className={classes.socialIcon}
@@ -85,9 +86,9 @@ const Footer = () => {
             <FaLinkedinIn aria-label="LinkedIn" style={{ color: "#0C63BC" }} />
           </a>
         )}
-        {socialsData.instagram && (
+        {Config.instagram && (
           <a
-            href={socialsData.instagram}
+            href={Config.instagram}
             target="_blank"
             rel="noreferrer"
             className={classes.socialIcon}
@@ -95,9 +96,9 @@ const Footer = () => {
             <FaInstagram aria-label="Instagram" style={{ color: "#d62976 " }} />
           </a>
         )}
-        {socialsData.hashnode && (
+        {Config.hashnode && (
           <a
-            href={socialsData.hashnode}
+            href={Config.hashnode}
             target="_blank"
             rel="noreferrer"
             className={classes.socialIcon}
@@ -109,7 +110,7 @@ const Footer = () => {
       <div
         className={`${classes.footerText} text-sm text-gray-500 sm:text-center dark:text-gray-400 footer-left-text`}
       >
-        Developed by Potter Amos
+        Developed by {Config.name}
       </div>
     </footer>
   );

@@ -1,0 +1,26 @@
+{
+    "name": "Nikita Borisov",
+    "age": 27,
+    "email": "jackle.some99@gmail.com",
+    "address": {
+      "street": "Koskikatu 57",
+      "city": "Espoo",
+      "state": "Uusimaa",
+      "zip": "02240",
+      "country": "Finland",
+      "googlemap": "https://www.google.com/maps/search/koskikatu+57+finland+Espoo/@60.2063508,24.3454908,10z/data=!3m1!4b1?entry=ttu"
+    },
+    "whatsapp": "https://wa.me/8171280446",
+    "github": "https://github.com/smartcoin1207",
+    "linkedIn": "https://www.linkedin.com/in/iam-devesh/",
+    "instagram": "https://www.instagram.com/iam_nightbot/",
+    "twitter": "https://twitter.com/Iam_DEv22",
+    "leetcode": "https://leetcode.com/iam_DEv/",
+    "freecodecamp": "https://www.freecodecamp.org/fccf19ae24f-985c-4c14-884d-275cd188e0f9",
+    "hackerrank": "https://www.hackerrank.com/mehra_devesh2022",
+    "hashnode": "https://iam-dev.hashnode.dev/",
+    "youtube": "https://youtube.com/",
+    "phone": "555-1234",
+    "occupation": "Software Engineer",
+    "hobbies": ["reading", "hiking", "photography"]
+  }

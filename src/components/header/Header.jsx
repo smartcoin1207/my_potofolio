@@ -15,13 +15,14 @@ import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import FolderSharedRoundedIcon from "@mui/icons-material/FolderSharedRounded";
 import CallRoundedIcon from "@mui/icons-material/CallRounded";
 import { SiHashnode } from "react-icons/si";
+import Config from "../../config";
 
 const pages = [
   { text: "Home", href: "/" },
   { text: "About", href: "/about" },
   { text: "Projects", href: "/projects" },
   { text: "Contact", href: "/contact" },
-  { text: "Blogs", href: "https://iam-dev.hashnode.dev/" },
+  // { text: "Blogs", href: "https://iam-dev.hashnode.dev/" },
 ];
 const pageIcons = [
   HomeRoundedIcon,
@@ -78,7 +79,7 @@ const Header = () => {
               },
             }}
           >
-            Potter Amos
+            {Config.name}
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -122,7 +123,7 @@ const Header = () => {
               },
             }}
           >
-            Potter Amos
+            {Config.name}
           </Typography>
           <Box
             justifyContent="flex-end"

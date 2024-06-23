@@ -16,11 +16,17 @@ import {
  SiPostgresql,
   SiHtml5,
   SiCss3,
+  SiGithub,
+  SiBlockchaindotcom,
+  SiEthereum,
+  SiSolidity,
+  SiBitcoin,
+  SiWeb3Dotjs,
+  SiFlutter,
+  SiAndroid,
+  SiKotlin,
+  SiSwift,
 } from "react-icons/si";
-
-
-
-
 
 const TechStack = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -65,23 +71,7 @@ const TechStack = () => {
       </h1>
       <div className="techstack-row">
         <Card.Group itemsPerRow={getItemsPerRow()}>
-          <Card
-            raised
-            className="item"
-            style={{
-              backgroundColor: "#10265ddc",
-              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
-            }}
-          >
-            <FaCuttlefish
-              style={{
-                width: "fit-content",
-                height: "4rem",
-
-                color: "#FFFFFF",
-              }}
-            />
-          </Card>
+          
 
           <Card
             raised
@@ -141,18 +131,7 @@ const TechStack = () => {
               }}
             />
           </Card>
-          <Card
-            raised
-            className="item"
-            style={{
-              backgroundColor: "#10265ddc",
-              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
-            }}
-          >
-            <SiCss3
-              style={{ width: "60%", height: "5rem", color: "#1572B6" }}
-            />
-          </Card>
+          
 
           <Card
             raised
@@ -164,29 +143,6 @@ const TechStack = () => {
           >
             <DiReact
               style={{ width: "60%", height: "5rem", color: "#61DBFB" }}
-            />
-          </Card>
-
-          <Card
-            raised
-            className="item"
-            style={{
-              backgroundColor: "#10265ddc",
-              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
-            }}
-          >
-            <SiMui style={{ width: "60%", height: "5rem", color: "#1976D2" }} />
-          </Card>
-          <Card
-            raised
-            className="item"
-            style={{
-              backgroundColor: "#10265ddc",
-              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
-            }}
-          >
-            <SiChakraui
-              style={{ width: "60%", height: "5rem", color: "#3182CE" }}
             />
           </Card>
 
@@ -224,6 +180,107 @@ const TechStack = () => {
             }}
           >
             <SiPostgresql
+              style={{ width: "60%", height: "5rem", color: "#336791" }}
+            />
+          </Card>
+
+          <Card
+            raised
+            className="item"
+            style={{
+              backgroundColor: "#10265ddc",
+              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <SiFlutter
+              style={{ width: "60%", height: "5rem", color: "#336791" }}
+            />
+          </Card>
+
+          <Card
+            raised
+            className="item"
+            style={{
+              backgroundColor: "#10265ddc",
+              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <SiAndroid
+              style={{ width: "60%", height: "5rem", color: "#336791" }}
+            />
+          </Card>
+
+          <Card
+            raised
+            className="item"
+            style={{
+              backgroundColor: "#10265ddc",
+              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <SiKotlin
+              style={{ width: "60%", height: "5rem", color: "#336791" }}
+            />
+          </Card>
+
+          <Card
+            raised
+            className="item"
+            style={{
+              backgroundColor: "#10265ddc",
+              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <SiSwift
+              style={{ width: "60%", height: "5rem", color: "#336791" }}
+            />
+          </Card>
+
+          <Card
+            raised
+            className="item"
+            style={{
+              backgroundColor: "#10265ddc",
+              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <SiEthereum
+              style={{ width: "60%", height: "5rem", color: "#336791" }}
+            />
+          </Card>
+          <Card
+            raised
+            className="item"
+            style={{
+              backgroundColor: "#10265ddc",
+              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <SiSolidity
+              style={{ width: "60%", height: "5rem", color: "#336791" }}
+            />
+          </Card>
+          <Card
+            raised
+            className="item"
+            style={{
+              backgroundColor: "#10265ddc",
+              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <SiBitcoin
+              style={{ width: "60%", height: "5rem", color: "#336791" }}
+            />
+          </Card>
+          <Card
+            raised
+            className="item"
+            style={{
+              backgroundColor: "#10265ddc",
+              boxShadow: "0px 12px 20px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <SiWeb3Dotjs
               style={{ width: "60%", height: "5rem", color: "#336791" }}
             />
           </Card>
